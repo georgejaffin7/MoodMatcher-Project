@@ -134,3 +134,8 @@ func fetchPlaylistTracks(playlistId: String) async throws -> [PlaylistTrackItem]
     return response.items
 }
 ```
+FINAL DEMO VIDEO:
+https://www.youtube.com/watch?v=17DsDEei5is
+
+FINAL DEMO GIF
+![](https://github.com/FAU-Fall2024-iOS-Mobile-App/final-project-georgejaffin7/blob/0eb3c71cafe317b7e39dc5bf795e93312d9abaa5/FinalProgress2.gif)
