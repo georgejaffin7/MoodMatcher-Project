@@ -1,7 +1,7 @@
 import Foundation
 
 class SpotifyService {
-    private let accessToken = "BQCL5pKpkn7p-dQSNwH08SL4HsDBCtkUVerISiS45b7okMRXFaH35h5HlPgxmkanUCcQo0nSe9oDUyiSBb8Dm40NI5GNOj9GZ0JU73FQvtEUGy3YX6U"
+    private let accessToken = "api-key"
     
     func fetchPlaylists(forMood mood: String) async throws -> [SpotifyPlaylist] {
         guard let url = URL(string: "https://api.spotify.com/v1/search?q=mood:\(mood)&type=playlist") else {
